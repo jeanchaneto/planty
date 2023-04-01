@@ -9,6 +9,7 @@ Template: hello-elementor
     box-sizing: border-box;
     width: 180px;
     justify-content: center;
+    font-size: 16px;
   }
 
   .menu-item a:hover {
@@ -31,8 +32,8 @@ Template: hello-elementor
   #menu-item-23 a:hover,
   #menu-item-28 a:hover {
     background-color: #c02e44;
-    font-weight: bold;
-    font-size: 13px;
+    font-weight: 400;
+    font-size: 16px;
   }
 
   #menu-item-23 a,
@@ -75,10 +76,11 @@ Template: hello-elementor
 
 .planty-footer a {
   color: black;
+  font-size: 16px;
 }
 
 .planty-footer a:hover {
   color: black;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 13px !important;
 }
