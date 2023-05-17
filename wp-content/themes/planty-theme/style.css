@@ -84,3 +84,119 @@ Template: hello-elementor
   font-weight: bold;
   font-size: 13px !important;
 }
+
+.pl-step-input-form{
+  display: flex;
+  
+  /* justify-content: space-between;
+  width: 100%; */
+}
+
+.planty-number-input {
+  width: 51px !important;
+  height: 56px;
+  border-radius: 5px !important;
+}
+
+.pl-step-btn {
+  width: 100px !important;
+  height: 56px;
+  border-radius: 5px !important;
+  margin-left: 42px;
+}
+
+/* Remove number input stepper */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+  outline: none;
+}
+
+.pl-step-input-container {
+  position: relative;
+}
+
+.pl-stepper-container{
+  background-color: #DC9F96;
+  width: 31px;
+  height: 56px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  position: absolute;
+  top: 0;
+  right: -28px;
+}
+
+.pl-stepper-container p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  width: 100%;
+}
+
+.pl-stepper-container span {
+  cursor: pointer;
+}
+
+.pl-divider {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+}
+
+.pl-order-form {
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+  color: white;
+}
+
+.wpcf7-validates-as-number{
+  width: 100% !important;
+}
+
+.pl-order-btn-container{
+text-align: center;
+}
+
+.pl-order-vertical-separator {
+  height: 447px;
+  width: 1px;
+  background-color: white;
+}
+
+.pl-order-form-input {
+  height: 71px;
+}
+
+.pl-order-btn-container {
+  padding-top: 15px;
+}
+
+.pl-order-btn-container p{
+  text-align: center;
+  margin-bottom: 93px;
+}
+
+.pl-order-btn {
+  height: 55px;
+}
+
+.wpcf7-spinner {
+  display: none !important;
+}
+
+.pl-order-form-postCode {
+  width: 365.5px !important;
+}
