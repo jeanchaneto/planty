@@ -200,3 +200,23 @@ text-align: center;
 .pl-order-form-postCode {
   width: 365.5px !important;
 }
+
+.pl-order-form-left, .pl-order-form-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 740px) {
+  .pl-order-form {
+    flex-direction: column;
+    align-items: center;
+  }
+  .pl-order-vertical-separator{
+    display: none;
+  }
+  .pl-step-input-form {
+    width: 200px !important;
+    margin: 0 auto;
+  }
+}
