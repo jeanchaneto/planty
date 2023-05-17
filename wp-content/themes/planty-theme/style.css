@@ -129,7 +129,7 @@ input[type=number] {
   border-bottom-right-radius: 5px;
   position: absolute;
   top: 0;
-  right: -28px;
+  right: -19px;
 }
 
 .pl-stepper-container p {
@@ -157,7 +157,7 @@ input[type=number] {
 .pl-order-form {
   display: flex;
   justify-content: space-between;
-  max-width: 800px;
+  max-width: 860px;
   margin: 0 auto;
   color: white;
 }
@@ -178,6 +178,7 @@ text-align: center;
 
 .pl-order-form-input {
   height: 71px;
+  outline: none !important;
 }
 
 .pl-order-btn-container {
@@ -219,4 +220,13 @@ text-align: center;
     width: 200px !important;
     margin: 0 auto;
   }
+  #wpcf7-f21-o1 {
+    width: 100%;
+  }
 }
+
+.pl-order-form h2 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
